@@ -15,6 +15,10 @@ function HomeContainer() {
         title="Popular Movies"
         movies={Movies.results.slice(1, 7)}
       />
+      <MoviesSection
+        title="Your Favorites"
+        movies={Movies.results.slice(7, 13)}
+      />
     </div>
   );
 }
